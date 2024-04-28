@@ -8,7 +8,7 @@ const ButtonPrimary = ({ btnTitle, btnStyle, imgSrc }) => {
           {btnTitle}
         </button>
       </span>
-      {/* <img src={imgSrc} alt="" /> */}
+      <img src={imgSrc} alt="" />
     </>
   );
 };
