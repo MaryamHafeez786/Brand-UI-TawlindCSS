@@ -6,11 +6,11 @@ const Hero = () => {
     <>
       <div className="flex justify-between px-20  bg-[#FFC8AC] h-682">
         <div className="w-30 ">
-          <h4 className="text-lime-600 mt-20 mb-12">Welcome</h4>
-          <h1 className=" text-6xl font-bold w-3/4  ">
+          <h4 className="text-green mt-20 mb-12">Welcome</h4>
+          <h1 className=" text-6xl font-bold text-midnight">
             Best Learing Opportunities
           </h1>
-          <h2 className=" text-neutral-500 text-2xl  w-80 mb-9 mt-9 ">
+          <h2 className=" text-grey text-2xl  w-80 mb-9 mt-9 ">
             Our goal is to make online education work for everyone
           </h2>
           <div className="flex gap-3 ">
@@ -23,13 +23,12 @@ const Hero = () => {
                 cursor: "pointer",
                 fontSize: 18,
                 font: "bold",
-                height: 36,
-                padding: 23,
-                paddingTop: 3,
+                height: 40,
+                padding: 25,
+                paddingTop: 4,
                 borderRadius: 3,
               }}
             />
-
             <ButtonPrimary
               btnTitle={"Learn More"}
               btnStyle={{
@@ -40,9 +39,9 @@ const Hero = () => {
                 borderRadius: 3,
                 fontSize: 18,
                 font: "bold",
-                height: 35,
-                padding: 12,
-                paddingTop: 2,
+                height: 40,
+                padding: 25,
+                paddingTop: 3,
               }}
             />
           </div>
@@ -51,8 +50,10 @@ const Hero = () => {
           <img src={heroimg} alt="" />
         </div>
       </div>
+      <br />
+      <br />
+      <br />
     </>
   );
 };
-
 export default Hero;

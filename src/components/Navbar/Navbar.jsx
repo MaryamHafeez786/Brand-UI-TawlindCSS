@@ -13,7 +13,7 @@ const Navbar = () => {
           <li>Contact</li>
         </ul>
       </div>
-      <div className="flex gap-8 m-2">
+      <div className="flex gap-12 m-2">
         <ButtonPrimary btnTitle={"Login"} btnStyle={{ color: "#96bb7c" }} />
         {/* <br /> */}
         <ButtonPrimary
