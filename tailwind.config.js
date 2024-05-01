@@ -15,7 +15,11 @@ export default {
       green:'#96BB7C',
       grey:'#737373',
       dangerred:'#E21B1B',
+     orange:'#FFAB71',
+      mutedgrey:'#BDBDBD',
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }

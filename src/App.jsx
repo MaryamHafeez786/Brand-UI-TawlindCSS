@@ -4,6 +4,7 @@ import Hero from "../src/components/Hero/Hero";
 import Packages from "./components/Packages/Packages";
 import Videos from "./components/Videos/Video";
 import Sales from "./components/Sales/Sales";
+import Watchs from "./components/Watchs/Watchs";
 const App = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const App = () => {
       <Packages />
       <Videos />
       <Sales />
+      <Watchs />
     </>
   );
 };
