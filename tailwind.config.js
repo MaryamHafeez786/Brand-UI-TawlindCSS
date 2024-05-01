@@ -17,6 +17,7 @@ export default {
       dangerred:'#E21B1B',
      orange:'#FFAB71',
       mutedgrey:'#BDBDBD',
+      yellow:'#fde047',
     },
   },
   plugins: [

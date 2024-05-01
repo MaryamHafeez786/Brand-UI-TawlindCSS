@@ -102,7 +102,7 @@ const Sales = () => {
             </h4>
             <div className="flex gap-3 mb-3 ml-5">
               <img src={arrow} alt="" />
-              <h4 className="text-grey">15 Sales</h4>
+              <h4 className="text-grey font-bold">15 Sales</h4>
             </div>
             <div className=" flex gap-2 mt-4 ml-5">
               <h3 className="text-mutedgrey">$16.48 </h3>
@@ -197,7 +197,7 @@ const Sales = () => {
             </h4>
             <div className="flex gap-3 mb-3 ml-5">
               <img src={arrow} alt="" />
-              <h4 className="text-grey">15 Sales</h4>
+              <h4 className="text-grey font-bold">15 Sales </h4>
             </div>
             <div className=" flex gap-2 mt-4 ml-5">
               <h3 className="text-mutedgrey">$16.48 </h3>
