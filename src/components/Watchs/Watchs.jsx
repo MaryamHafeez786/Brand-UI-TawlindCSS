@@ -4,7 +4,7 @@ const Watchs = () => {
   return (
     <>
       <div className="mt-24">
-        <div className="ml-72">
+        <div className="ml-24">
           <h5 className="text-green mb-6">Testimonials</h5>
           <h1 className="text-3xl  mb-7 font-bold text-midnight">
             Watch our Courses

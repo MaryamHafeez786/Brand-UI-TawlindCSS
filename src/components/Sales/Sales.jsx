@@ -10,9 +10,19 @@ import vector from "../../assets/vector.svg";
 import cool from "../../assets/cool.svg";
 import ant from "../../assets/ant.svg";
 import rightarrow from "../../assets/rightarrow.svg";
+import vyellow from "../../assets/vyellow.svg";
 const Sales = () => {
   const myStyle = {
     backgroundImage: `url(${colorpencil})`,
+    marginTop: "-70px",
+    fontSize: "20px",
+    width: "209px",
+    height: "402px",
+    backgroundRepeat: "no-repeat",
+    marginLeft: "30px",
+  };
+  const myStyle1 = {
+    backgroundImage: `url(${vyellow})`,
     marginTop: "-70px",
     fontSize: "20px",
     width: "209px",
@@ -101,15 +111,15 @@ const Sales = () => {
             <div className="flex">
               <div className=" flex gap-2 mt-4 ml-5">
                 <img src={cool} alt="" />
-                <h4 className="text-grey">15 Sales</h4>
+                <h4 className="text-grey">22h...</h4>
               </div>
               <div className=" flex gap-2 mt-4 ml-5">
                 <img src={vector} alt="" />
-                <h4 className="text-grey">15 Sales</h4>
+                <h4 className="text-grey">64 Lessons</h4>
               </div>
               <div className=" flex gap-2 mt-4 ml-5">
                 <img src={ant} alt="" />
-                <h4 className="text-grey">15 Sales</h4>
+                <h4 className="text-grey">Progress</h4>
               </div>
             </div>
             <button className="flex p-5 gap-4">
@@ -136,7 +146,7 @@ const Sales = () => {
         {/* card 2 */}
         <div style={{ display: "flex", gap: 15 }}>
           <div className="mt-8">
-            <div style={myStyle}>
+            <div style={myStyle1}>
               <ButtonPrimary
                 btnTitle={"Sale"}
                 btnStyle={{
@@ -175,11 +185,11 @@ const Sales = () => {
                 gap: 50,
               }}
             >
-              <h1 className="text-green  ">2,769 online courses</h1>
+              <h1 className="text-green  ">Lifetime access</h1>
               <img src={rating} alt="" />
             </div>
             <h4 className="text-lg font-bold mb-3 mt-4 ml-5">
-              Watch our Courses
+              Our Experts Teacher
             </h4>
             <h4 className="w-52 ml-5">We focus on ergonomics and</h4>
             <h4 className="w-60 mb-3 ml-5">
@@ -196,15 +206,15 @@ const Sales = () => {
             <div className="flex">
               <div className=" flex gap-2 mt-4 ml-5">
                 <img src={cool} alt="" />
-                <h4 className="text-grey">15 Sales</h4>
+                <h4 className="text-grey">22h...</h4>
               </div>
               <div className=" flex gap-2 mt-4 ml-5">
                 <img src={vector} alt="" />
-                <h4 className="text-grey">15 Sales</h4>
+                <h4 className="text-grey">64 Lessons</h4>
               </div>
               <div className=" flex gap-2 mt-4 ml-5">
                 <img src={ant} alt="" />
-                <h4 className="text-grey">15 Sales</h4>
+                <h4 className="text-grey">Progress</h4>
               </div>
             </div>
             <button className="flex p-5 gap-4">
