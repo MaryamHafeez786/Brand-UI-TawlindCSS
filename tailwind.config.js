@@ -18,6 +18,7 @@ export default {
      orange:'#FFAB71',
       mutedgrey:'#BDBDBD',
       yellow:'#fde047',
+      pink:'FFF2F3',
     },
   },
   plugins: [

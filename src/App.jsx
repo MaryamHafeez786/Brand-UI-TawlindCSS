@@ -5,6 +5,8 @@ import Packages from "./components/Packages/Packages";
 import Videos from "./components/Videos/Video";
 import Sales from "./components/Sales/Sales";
 import Watchs from "./components/Watchs/Watchs";
+import Education from "./components/Education/Education";
+import Newsletter from "./components/Newsletter/Newsletter";
 const App = () => {
   return (
     <>
@@ -14,6 +16,8 @@ const App = () => {
       <Videos />
       <Sales />
       <Watchs />
+      <Education />
+      <Newsletter />
     </>
   );
 };

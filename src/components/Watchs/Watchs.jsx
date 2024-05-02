@@ -4,7 +4,7 @@ import boytestimonal from "../../assets/boytestimonal.svg";
 const Watchs = () => {
   return (
     <>
-      <div className="mt-24">
+      <div className="mt-48">
         <div className="ml-24">
           <h5 className="text-green mb-6">Testimonials</h5>
           <h1 className="text-3xl  mb-7 font-bold text-midnight">
@@ -21,23 +21,7 @@ const Watchs = () => {
       <br />
       <br />
       <br />
-      {/* <div>
-        <div className="card w-96 bg-base-100 shadow-xl">
-          <figure>
-            <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-              alt="Shoes"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
-            </div>
-          </div>
-        </div>
-      </div> */}
+
       <div className="flex justify-around mt-10">
         <div>
           <img src={girltestimonal} alt="" className="rounded-full ml-11" />
@@ -72,7 +56,7 @@ const Watchs = () => {
             <input
               type="radio"
               name="rating-4"
-              className="mask mask-star-2 border-yellow border-4 bg-white w-4 h-4		"
+              className="mask mask-star-2 border-yellow border-8 bg-white w-4 h-4		"
             />
           </div>
           <h4 className=" mt-2 font-bold ml-16">Regina Miles</h4>
@@ -112,15 +96,13 @@ const Watchs = () => {
             <input
               type="radio"
               name="rating-4"
-              className="mask mask-star-2 border-yellow border-4 bg-white	w-4 h-4	"
+              className="mask mask-star-2 border-yellow border-8 bg-white	w-4 h-4	"
             />
           </div>
           <h4 className=" mt-2 ml-16 font-bold">Regina Miles</h4>
           <h4 className=" mt-2 ml-20 text-grey font-bold">Designer</h4>
         </div>
       </div>
-      <br />
-      <br />
       <br />
       <br />
     </>
