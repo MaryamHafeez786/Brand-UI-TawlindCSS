@@ -13,7 +13,7 @@ const Hero = () => {
           <h2 className=" text-grey text-2xl  w-80 mb-9 mt-9 ">
             Our goal is to make online education work for everyone
           </h2>
-          <div className="flex gap-3 ">
+          <div className="flex gap-3 lg:mb-8 sm:mb-8 ">
             <ButtonPrimary
               btnTitle={"Join us"}
               btnStyle={{
@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          <img src={heroimg} alt="" />
+          <img src={heroimg} alt="" className="lg:mb-0 sm:flex-wrap" />
         </div>
       </div>
       <br />

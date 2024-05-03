@@ -7,6 +7,8 @@ import Sales from "./components/Sales/Sales";
 import Watchs from "./components/Watchs/Watchs";
 import Education from "./components/Education/Education";
 import Newsletter from "./components/Newsletter/Newsletter";
+import Footer from "./components/Footer/Footer";
+
 const App = () => {
   return (
     <>
@@ -18,6 +20,7 @@ const App = () => {
       <Watchs />
       <Education />
       <Newsletter />
+      <Footer />
     </>
   );
 };

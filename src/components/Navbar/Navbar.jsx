@@ -16,20 +16,22 @@ const Navbar = () => {
       <div className="flex gap-12 m-2">
         <ButtonPrimary btnTitle={"Login"} btnStyle={{ color: "#96bb7c" }} />
         {/* <br /> */}
-        <ButtonPrimary
-          btnTitle={"Join us"}
-          btnStyle={{
-            backgroundColor: "#96BB7C",
-            width: "100%",
-            color: "white",
-            cursor: "pointer",
-            borderRadius: 3,
-            height: 35,
-            padding: 17,
-            paddingTop: 4,
-            marginRight: 20,
-          }}
-        />
+        <div className="sm: text-sm">
+          <ButtonPrimary
+            btnTitle={"Join us"}
+            btnStyle={{
+              backgroundColor: "#96BB7C",
+              width: "100%",
+              color: "white",
+              cursor: "pointer",
+              borderRadius: 3,
+              height: 35,
+              padding: 17,
+              paddingTop: 4,
+              marginRight: 20,
+            }}
+          />
+        </div>
       </div>
     </nav>
   );

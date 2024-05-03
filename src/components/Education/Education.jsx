@@ -28,13 +28,14 @@ const Education = () => {
       <br />
       <br />
       <br />
-      <div className="flex ml-20">
+      <div className="flex justify-evenly mx-20">
+        {/* card 1 */}
         <div className="card w-60 bg-base-100 shadow-xl ml-5 h-96">
           <figure>
             <img src={img1} alt="" className=" rounded-ee-none h-60	" />
           </figure>
           <div className="card-body items-center text-center ">
-            <h2 className="card-title ">Julian Jameson</h2>
+            <h2 className="card-title font-bold ">Julian Jameson</h2>
             <h4>Profession</h4>
             <div className="flex gap-3 mt-2">
               <img src={facebook} alt="" />
@@ -43,12 +44,13 @@ const Education = () => {
             </div>
           </div>
         </div>
+        {/* card 2 */}
         <div className="card w-60 bg-base-100 shadow-xl ml-5 h-96">
           <figure>
             <img src={img2} alt="" className=" rounded-ee-none h-60	" />
           </figure>
           <div className="card-body items-center text-center ">
-            <h2 className="card-title ">Julian Jameson</h2>
+            <h2 className="card-title font-bold ">Julian Jameson</h2>
             <h4>Profession</h4>
             <div className="flex  gap-3 mt-2">
               <img src={facebook} alt="" />
@@ -57,13 +59,15 @@ const Education = () => {
             </div>
           </div>
         </div>
+        {/* card 3 */}
+
         <div className="card w-60 bg-base-100 shadow-xl ml-5 h-96">
           <figure>
             <img src={img3} alt="" className=" rounded-ee-none h-60	" />
           </figure>
           <div className="card-body items-center text-center ">
-            <h2 className="card-title ">Julian Jameson</h2>
-            <h4>Profession</h4>
+            <h2 className="card-title font-bold">Julian Jameson</h2>
+            <h4 className="">Profession</h4>
             <div className="flex  gap-3 mt-2">
               <img src={facebook} alt="" />
               <img src={instagram} alt="" />
@@ -71,6 +75,7 @@ const Education = () => {
             </div>
           </div>
         </div>
+        {/* card 4 */}
         <div className="card w-60 bg-base-100 shadow-xl ml-5 h-96">
           <figure>
             <img src={img4} alt="" className=" rounded-ee-none h-60	" />
@@ -86,13 +91,6 @@ const Education = () => {
           </div>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </>
   );
 };
