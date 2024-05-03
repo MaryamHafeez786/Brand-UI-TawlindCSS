@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="flex justify-between bg-[#FFC8AC] h-24 px-20">
       <div className="flex gap-16 m-2">
         <h1 className="text-2xl font-bold">InspireEdu</h1>
-        <ul className="flex gap-4 m-1 text-neutral-500 ">
+        <ul className="flex gap-4 m-1 text-neutral-500 hover:text-lightgreyw ">
           <li>Home</li>
           <li>Product</li>
           <li>Pricing</li>
@@ -25,9 +25,9 @@ const Navbar = () => {
               color: "white",
               cursor: "pointer",
               borderRadius: 3,
-              height: 35,
+              height: 40,
               padding: 17,
-              paddingTop: 4,
+              paddingTop: 7,
               marginRight: 20,
             }}
           />

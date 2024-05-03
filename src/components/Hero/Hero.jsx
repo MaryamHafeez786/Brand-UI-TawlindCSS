@@ -41,7 +41,7 @@ const Hero = () => {
                 font: "bold",
                 height: 40,
                 padding: 25,
-                paddingTop: 3,
+                paddingTop: 4,
               }}
             />
           </div>
